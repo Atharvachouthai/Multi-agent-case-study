@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*build*/
+*dist*/
+*.egg-info/
+*.spec
+*.egg
+venv/
+my_venv/ 
+env/
+ENV/
+helper.py
+
+# IDE / Editor specific
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sublime-workspace
+
+# OS specific
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Log files
+*.log
+logs/
+
+# Configuration files that might contain secrets (though keys should be env vars)
+# Example:
+# credentials.json
+.env
+
+# Streamlit
+.streamlit/
+
